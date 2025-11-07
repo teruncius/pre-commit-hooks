@@ -6,3 +6,7 @@ repos:
       - id: end-of-file-fixer
       - id: check-yaml
       - id: requirements-txt-fixer
+  - repo: https://github.com/teruncius/pre-commit-hooks
+    rev: "0.1.0"
+    hooks:
+      - id: prepend-branch-name

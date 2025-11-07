@@ -1,6 +1,6 @@
--   id: prepend-branch-name
-    name: prepend branch name
-    description: prepends the git branch name to the current commit message.
-    entry: hooks/prepend-branch-name.sh
-    language: script
-    stages: [commit-msg]
+- id: prepend-branch-name
+  name: prepend branch name
+  description: prepends the git branch name to the current commit message.
+  entry: hooks/prepend-branch-name.sh
+  language: script
+  stages: [commit-msg]
